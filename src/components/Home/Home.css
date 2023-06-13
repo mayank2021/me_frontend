@@ -1,0 +1,91 @@
+.todo-outer-container{
+    padding: 10px;
+}
+
+.heading-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.heading-btn-container h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #606C5D;   
+}
+
+.primary-button{
+    height: 34px;
+    margin-top: 15px;
+    background-color: #606C5D;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.todo-container{
+    border: 1px solid #606C5D;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.todo-title-container{
+display: flex;
+align-items: center;
+padding: 0px 20px;
+justify-content: space-between;
+}
+
+.todo-title-container h4{
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: #454545; 
+}
+
+.todo-title-container button{
+   margin: 10px;
+}
+
+.sub-task-number{
+    width: 15px;
+    height: 15px;
+    border-radius: 500px;
+    margin-left: 3px;
+    color: #454545;
+    font-weight: bold;
+    padding: 2px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.sub-task-button-container{
+    display: flex;
+}
+
+.sub-todo-container{
+ padding: 5px 30px;
+}
+
+.sub-todo-container h5{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    color: #454545; 
+    border: 1px solid #606C5D;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+}

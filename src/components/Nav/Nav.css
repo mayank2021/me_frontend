@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #606C5D;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #FFF4F4;
+}
+
+.link-conatiner li {
+    list-style-type: none;
+}
+.nav-link{
+    color: #FFF4F4;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
